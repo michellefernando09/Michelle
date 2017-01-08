@@ -11,10 +11,7 @@ int main()
  int gd=DETECT,gm;
  initgraph(&gd,&gm,NULL);
 
- //Assigning Region codes
- //line(x,y,xd,yd);
- //x=150;y=100;
- 
+
 if(x<100 && y<50)
 {
 	rc=1001;
